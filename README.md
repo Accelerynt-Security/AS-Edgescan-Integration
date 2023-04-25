@@ -43,6 +43,8 @@ The following items are required under the template settings during deployment:
 #### Edgescan URL
 
 Log into your Edgescan account and take note of the URL. It should follow this format "**example.edgescan.com**".
+
+![Edgescan_Integration_URL_1](Images/Edgescan_Integration_URL_1.png)
                                                                                                                         
 #### Create an Edgescan API Token
 
