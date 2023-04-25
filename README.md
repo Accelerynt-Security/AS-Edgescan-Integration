@@ -23,9 +23,9 @@ For each Edgescan object, there is a corresponding logic app:
 The logic app templates you will deploy are set up for their initial runs, which are designed to pull in all Edgescan data. After pulling in all initial data, the logic apps will need to be updated to use a rolling lookback window and a duplicate ID check before any subsequent runs. This documentation will cover not only the deployment and initial runs of the logic apps, but also the steps needed to update each playbook after each initial run.
 
 Entries will be stored in Microsoft Sentinel [custom logs](https://github.com/Accelerynt-Security/AS-Edgescan-Integration#viewing-custom-logs) with the following table names:
-* **edgescan_assets_CL**
-* **edgescan_hosts_CL**
-* **edgescan_vulnerabilities_CL**
+* **Edgescan_Assets_CL**
+* **Edgescan_Hosts_CL**
+* **Edgescan_Vulnerabilities_CL**
 
 #
 ### Requirements
@@ -261,15 +261,15 @@ Add the query matching the logic app you are editing:
 
 
 #### AS-Edgescan-Integration-Assets
-    edgescan_assets_CL
+    Edgescan_Assets_CL
 
 
 #### AS-Edgescan-Integration-Hosts
-    edgescan_hosts_CL
+    Edgescan_Hosts_CL
 
 
 #### AS-Edgescan-Integration-Vulnerabilities
-    edgescan_vulnerabilities_CL 
+    Edgescan_Vulnerabilities_CL 
     | where date_opened_t >= now(-3d)
 
 Set the lookback range to **7 days**, although you may want to do something closer to 3 days if the data is high in volume.
