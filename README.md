@@ -90,22 +90,22 @@ For each of these templates, the password parameter will be the value of your Ed
 #### AS-Edgescan-Integration-Assets
 
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy2.json)
-[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy2.json)    
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy1.json)
+[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy1.json)    
 
 
 #### AS-Edgescan-Integration-Hosts
 
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy3.json)
-[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy3.json)    
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy2.json)
+[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy2.json)    
                                                 
 
 #### AS-Edgescan-Integration-Vulnerabilities
 
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy1.json)
-[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy1.json)    
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy3.json)
+[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmain%2Fazuredeploy3.json)    
 
 
 Each of these logic apps are disabled upon deployment, meaning they will not run until you enable them.
@@ -276,7 +276,7 @@ Set the lookback range to **7 days**, although you may want to do something clos
 
 ![Edgescan_Integration_Final_Set_Up_2](Images/Edgescan_Integration_Final_Set_Up_2.png)
 
-**Note:** Since the volume of hosts and assets is expected to be much lower, no additional filters other than a date range are used in those queries.
+**Note:** Since the volume of assets and hosts is expected to be much lower, no additional filters other than a date range are used in those queries.
 
 
 Below the query action, add another action, searching for "**Control**" and then selecting "**For each**".
