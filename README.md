@@ -68,7 +68,7 @@ Navigate to an existing Key Vault or create a new one. From the Key Vault overvi
 
 ![Edgescan_Integration_Key_Vault_1](Images/Edgescan_Integration_Key_Vault_1.png)
 
-Choose a name for the secret, such as "**AS-Edgescan-Integration-API-Key**", and enter the Edgescan API token copied previously in the [previous section](https://github.com/Accelerynt-Security/AS-Edgescan-Integration#create-an-edgescan-api-token). All other settings can be left as is. Click "**Create**". 
+Choose a name for the secret, such as "**AS-Edgescan-Integration-API-Token**", and enter the Edgescan API token copied previously in the [previous section](https://github.com/Accelerynt-Security/AS-Edgescan-Integration#create-an-edgescan-api-token). All other settings can be left as is. Click "**Create**". 
 
 ![Edgescan_Integration_Key_Vault_2](Images/Edgescan_Integration_Key_Vault_2.png)
 
