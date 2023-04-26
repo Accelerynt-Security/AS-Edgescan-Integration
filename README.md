@@ -123,11 +123,11 @@ Each of these logic apps are disabled upon deployment, meaning they will not run
 >
 >* **Edgescan URL**: Enter the name of your Edgescan URL referenced in [Edgescan URL](https://github.com/Accelerynt-Security/AS-Edgescan-Integration#edgescan-url). You do not need to include "https://".
 >
->* **Key Vault Name**: Enter the name of the Key Vault referenced in [Create an Azure Key Vault Secret](https://github.com/Accelerynt-Security/AS-Edgescan-Integration#create-an-azure-key-vault-secret).
+>* **Edgescan Username**: Enter the username of the Edgescan account used to create the API token.
+>
+>* **Key Vault Name**: Enter the name of the Key Vault used to store your API token, referenced in [Create an Azure Key Vault Secret](https://github.com/Accelerynt-Security/AS-Edgescan-Integration#create-an-azure-key-vault-secret).
 >
 >* **Secret Name**: Enter the name of the Key Vault Secret created in [Create an Azure Key Vault Secret](https://github.com/Accelerynt-Security/AS-Edgescan-Integration#create-an-azure-key-vault-secret).
->
->* **Email Addresses**: Enter the desired email addresses here. If entering more than one, separate with a semicolon.
 >
 >Towards the bottom, click on "**Review + create**". 
 >
