@@ -170,18 +170,14 @@ Each of these logic apps are disabled upon deployment, meaning they will not run
 >From the left menu blade, click the "**Agents**" option, then expand the "**Log Analytics agent instructions**" section. Here you will find your workspace ID and primary key, which can be used as your workspace key.
 >
 >![Edgescan_Integration_Deploy_9](Images/Edgescan_Integration_Deploy_9.png)
->
->This will show you the workspace id and key, corresponding to items 3 and 2 respectively.
->
->![Edgescan_Integration_Deploy_10](Images/Edgescan_Integration_Deploy_10.png)
->
->Now the logic app can be saved and enabled. 
->
-**Note:** Before you enable and run the logic apps, you may wish to limit the data initially ingested from Edgescan. If this is the case, click edit on each of the logic apps again.
+> 
+
 #
 ### Limit Initial Data Ingestion
 
-To limit the ingestion of data before your initial run, for each logic app, expand the HTTP Request section.
+The initial run of each logic app is set up so that all existing Edgescan data is pulled into Microsoft Sentinel custom logs. If you wish to limit the data initially ingested from Edgescan, follow the steps in this section. If not, skip ahead to the next section: [Granting Access to Azure Key Vault](https://github.com/Accelerynt-Security/AS-Edgescan-Integration#granting-access-to-azure-key-vault).
+
+To limit the ingestion of data before your initial run, for each logic app, click edit and expand the HTTP Request section.
 
 ![Edgescan_Integration_Limit_1](Images/Edgescan_Integration_Limit_1.png)
 
@@ -227,6 +223,7 @@ Navigate to the "**Review + create**" section and click "**Create**".
 ![Edgescan_Integration_Key_Vault_Access_4](Images/Edgescan_Integration_Key_Vault_Access_4.png)
 
 Repeat this process for "**AS-Edgescan-Integration-Hosts**" and "**AS-Edgescan-Integration-Vulnerabilities**" 
+
 
 #
 ### Initial Run
