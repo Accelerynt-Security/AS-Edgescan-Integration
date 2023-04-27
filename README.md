@@ -155,26 +155,31 @@ Each of these logic apps are disabled upon deployment, meaning they will not run
 >
 >![Edgescan_Integration_Deploy_6](Images/Edgescan_Integration_Deploy_6.png)
 >
->Enter the logic app name in for the Connection Name. 
+>Enter the name of the logic app for the connection name, followed by the workspace key and workspace ID your logic apps were deployed in, then click "**Update**". 
 >
 >![Edgescan_Integration_Deploy_7](Images/Edgescan_Integration_Deploy_7.png)
 >
->To obtain items 2 and 3, in a separate tab, open to the workspace your logic apps were deployed in. This can be found by navigating to the Log Analytics workspaces Service from the home page.
+>For the "**Custom Log Name**" field, make sure either "**Edgescan_Assets**", "**Edgescan_Hosts**", or "**Edgescan_Vulnerabilities**" is used, then save the logic app.
 >
->Click on the Agents management option.
+>>![Edgescan_Integration_Deploy_8](Images/Edgescan_Integration_Deploy_8.png)
 >
->![Edgescan_Integration_Deploy_8](Images/Edgescan_Integration_Deploy_8.png)
+>#### To obtain your workspace key and workspace ID
 >
->This will show you the workspace id and key, corresponding to items 3 and 2 respectively.
+> In a separate tab, navigate to https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.OperationalInsights%2Fworkspaces and select the workspace your logic apps were deployed in.
+>
+>From the left menu blade, click the "**Agents**" option, then expand the "**Log Analytics agent instructions**" section. Here you will find your workspace ID and primary key, which can be used as your workspace key.
 >
 >![Edgescan_Integration_Deploy_9](Images/Edgescan_Integration_Deploy_9.png)
 >
+>This will show you the workspace id and key, corresponding to items 3 and 2 respectively.
+>
+>![Edgescan_Integration_Deploy_10](Images/Edgescan_Integration_Deploy_10.png)
+>
 >Now the logic app can be saved and enabled. 
-
+>
 **Note:** Before you enable and run the logic apps, you may wish to limit the data initially ingested from Edgescan. If this is the case, click edit on each of the logic apps again.
-
 #
-###  Limit Initial Data Ingestion
+### Limit Initial Data Ingestion
 
 To limit the ingestion of data before your initial run, for each logic app, expand the HTTP Request section.
 
