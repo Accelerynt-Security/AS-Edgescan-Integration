@@ -243,7 +243,7 @@ If you do not wish to have constant polling of assets and hosts, these logic app
 Once each initial run has been completed, navigate to 
 https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/microsoft.securityinsightsarg%2Fsentinel
 
-From there, select the workspace your deployed logic apps reference and click "**Logs**" in the left-hand menu blade. Expand "**Custom Logs**". Here you should see customs logs for each of your three logic apps.
+From there, select the workspace your deployed logic apps reference and click "**Logs**" in the left-hand menu blade. Expand "**Custom Logs**". Here, you should see customs logs for each of your three logic apps. It may take a while for them to populate, so if they are not yet visible, you may want to try and query them periodically.
 
 ![Edgescan_Integration_Custom_Logs_1](Images/Edgescan_Integration_Custom_Logs_1.png)
 
