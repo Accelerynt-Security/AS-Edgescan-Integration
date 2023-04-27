@@ -228,13 +228,13 @@ Repeat this process for "**AS-Edgescan-Integration-Hosts**" and "**AS-Edgescan-I
 
 #
 ### Initial Run
-To execute our initial run, enable each logic app and run their triggers.
+To execute our initial run, enable each logic app. Their triggers will run automatically.
 
 ![Edgescan_Integration_Initial_Run_1](Images/Edgescan_Integration_Initial_Run_1.png)
 
-![Edgescan_Integration_Initial_Run_2](Images/Edgescan_Integration_Initial_Run_2.png)
-
 Once these complete successfully, **disable the logic apps**. We do not want them to run again until we have made additions to check for duplicates and allow a smaller lookback window.
+
+![Edgescan_Integration_Initial_Run_2](Images/Edgescan_Integration_Initial_Run_2.png)
 
 If you do not wish to have constant polling of assets and hosts, these logic apps may be left disabled.
 
