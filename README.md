@@ -183,10 +183,6 @@ To limit the ingestion of data before your initial run, for each logic app, clic
 
 To only ingest records created in the last year, for example, you would add the following string to the end of the existing URI to the necessary logic apps:
 
-#### AS-Edgescan-Integration-Vulnerabilities
-    ?c[date_opened_after]=@{formatDateTime(addDays(utcNow(),-365),'yy-MM-dd')}
-
-
 #### AS-Edgescan-Integration-Assets
     ?c[created_at]=@{formatDateTime(addDays(utcNow(),-365),'yy-MM-dd')}
 
@@ -194,9 +190,14 @@ To only ingest records created in the last year, for example, you would add the 
 #### AS-Edgescan-Integration-Hosts
     ?c[updated_at]=@{formatDateTime(addDays(utcNow(),-365),'yy-MM-dd')}
 
-  
+
+#### AS-Edgescan-Integration-Vulnerabilities
+    ?c[date_opened_after]=@{formatDateTime(addDays(utcNow(),-365),'yy-MM-dd')}
+
+
 **Note:** In the case of hosts, since no created date field appears to exist, the field indicating the last update is used instead.
-  
+
+![Edgescan_Integration_Limit_2](Images/Edgescan_Integration_Limit_2.png) 
 
 Once this is done, be sure to save each logic app.
 
