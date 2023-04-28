@@ -301,6 +301,8 @@ Select the string variable referenced in the logic app and paste the following i
 
     concat(items('For_each')?['id_d'], ' ')
 
+Be sure to click "**Ok**" in this dialogue box before proceeding.
+
 ![Edgescan_Integration_Final_Set_Up_6](Images/Edgescan_Integration_Final_Set_Up_6.png)
 
 Now navigate down to the bottom for loop of your logic app.
@@ -311,7 +313,7 @@ As you did before, select the "**Control**" action.
 
 This time, click on "**Condition**".
 
-In the Condition box, select the string variable in your logic app, select "**does not contain**" from the middle drop down, then paste one of the following strings in the "Expression" tab of the dynamic content value box:
+In the Condition box, select the string variable in your logic app, select "**does not contain**" from the middle drop down, then paste one of the following strings in the "**Expression**" tab of the dynamic content value box:
 
 #### AS-Edgescan-Integration-Assets
     string(items('For_Each_Asset')['id'])
