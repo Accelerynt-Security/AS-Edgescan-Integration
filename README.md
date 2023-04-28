@@ -34,7 +34,7 @@ The following items are required under the template settings during deployment:
 
 * Your Edgescan [URL](https://github.com/Accelerynt-Security/AS-Edgescan-Integration#edgescan-url)
 * An Edgescan [API token](https://github.com/Accelerynt-Security/AS-Edgescan-Integration#create-an-edgescan-api-token)
-* Preexisting asset, host, and vulnerability data in your Edgescan org
+* Pre-existing asset, host, and vulnerability data in your Edgescan org
 
 
 # 
