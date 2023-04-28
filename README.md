@@ -260,7 +260,7 @@ Search for "**Run query and list results**".
 
 ![Edgescan_Integration_Final_Set_Up_1](Images/Edgescan_Integration_Final_Set_Up_1.png)
 
-Select the information from the drop-down lists matching what was used in the logic app deployment. Be sure to select "**Log Analytics Workspace**" for the Resource Type.
+You may need to first set up a connection for this action if it has never been used before. Then, select the subscription and resource information from the drop-down lists matching what was used during the logic app deployment. Be sure to select "**Log Analytics Workspace**" for the Resource Type.
 
 Add the query matching the logic app you are editing:
 
