@@ -2,11 +2,7 @@
 
 Author: Accelerynt
 
-For any technical questions, please contact info@accelerynt.com  
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmaster%2Fazuredeploy.json)
-[![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Edgescan-Integration%2Fmaster%2Fazuredeploy.json)     
-
+For any technical questions, please contact info@accelerynt.com    
 
 This playbook will create a unidirectional integration with Microsoft Sentinel. It will pull Edgescan assets, hosts, and vulnerabilities into Microsoft Sentinel custom logs where they can be tracked and queried.
 
